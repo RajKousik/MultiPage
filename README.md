@@ -1,3 +1,3 @@
-[GitHub Link](https://github.com/RajKousik/MultiPage)
+GitHub Link - https://github.com/RajKousik/MultiPage
 
-[Host Link](multi-page-xi.vercel.app)
+Host Link - https://multi-page-xi.vercel.app/calculator

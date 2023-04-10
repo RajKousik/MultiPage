@@ -1,0 +1,203 @@
+a:link 
+{
+  color: royalblue;
+  background-color: transparent;
+}
+a:hover
+ {
+  color: greenyellow;
+  background-color: transparent;
+}
+a:active 
+{
+  color: red;
+  background-color: transparent;
+}
+
+.api
+{
+    text-align: center;
+}
+
+.apiHead
+{
+    font-size: 80px;
+}
+
+.api .char
+{
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    font-size: 20px
+}
+
+body
+{
+    font-family:'Times New Roman',Times, serif;
+    background-color: #dfd8dc;
+}
+
+#maintable
+{
+    width:900px;
+    height:800px;
+}
+
+#personal{
+    color: whitesmoke;
+    padding: 20px;
+    background-color: #1c2833;
+    width: 200px; 
+}
+
+#education
+{
+    width:700px; 
+    background-color:whitesmoke;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+img
+{
+    border-radius:50%;
+    object-fit: cover;
+}
+
+h3
+{
+    text-align: right;
+}
+
+#education h1
+{
+    text-align: center;
+    color: rgb(0, 0, 255);
+    text-shadow: 2px 2px 2px #999999;
+}
+
+#education p{
+    text-align:justify;
+    font-size: 20px;
+    text-indent: 75px;
+}
+
+#qualification
+{
+    border: 5px; 
+    border-collapse: collapse;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+#education table
+{
+    border:5;
+    width:700px;
+    text-align: center; 
+}
+
+.media
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.li
+{
+    padding-bottom: 5px;
+}
+
+#list
+{
+    font-size: 20px;
+}
+
+
+
+.calciButton
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.calciButton:hover, .calciButton:active
+ {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.calciButton:active 
+{
+  opacity: 0.5;
+}
+
+
+
+
+
+.ApiButton
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.ApiButton:hover, .ApiButton:active
+ {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.ApiButton:active 
+{
+  opacity: 0.5;
+}

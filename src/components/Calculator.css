@@ -1,0 +1,163 @@
+
+
+h1{
+    margin: 10px;
+}
+
+.screen-row{
+    margin: 10px;
+}
+
+.calculator-title{
+	font-size:30px;
+	background: #fff;
+	width: 400px;
+	padding: 10px 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	border: 2px solid black;
+	color: #4CAF50;
+}
+
+
+.mainCalc{
+	margin:100px;
+	padding:0px;
+	border-radius: 0px;
+	box-sizing: border-box;
+    text-align:center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+input[type='button']{
+	width: 100px;
+	background: yellow;
+	border: 1px solid #222;
+	padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type='button']:active{
+	background: gray;
+}
+
+
+.screen-row input{
+  width: 400px;
+	background: whitesmoke;
+	border: 0px;
+	color: #222;
+	padding: 10px;
+	text-align: right;
+
+}
+
+/* .ProfileButton
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.ApiButton
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+} */
+
+.ProfileButton 
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.ProfileButton:hover, .ProfileButton:active
+ {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.ProfileButton:active 
+{
+  opacity: 0.5;
+}
+
+
+
+
+.apiButton 
+{
+    position: fixed;
+    top: 20px;
+    right: 20px !important;
+    width: 100px;
+
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.apiButton:hover, .apiButton:active
+ {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.apiButton:active 
+{
+  opacity: 0.5;
+}

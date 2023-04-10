@@ -1,1 +1,1 @@
-[https://github.com/RajKousik/MultiPage](GitHub Link)
+[GitHub Link](https://github.com/RajKousik/MultiPage)
